@@ -27,6 +27,7 @@ The instructions for this mini project are divided into the following subsection
     - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
     - A "subcategory" column that contains only the subcategory titles
     - The following image shows this subcategory DataFrame:
+
 ![subcategory_Dataframe](imgs/subcategory_DataFrame.png)
 
 4. Export the subcategory DataFrame as `subcategory.csv` and save it to your GitHub repository.
