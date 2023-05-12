@@ -1,6 +1,6 @@
 # Project 2
 
-## Table Of Contents
+### Table Of Contents
 1. [Instructions](#instructions)
 2. [Create the Category and Subcategory DataFrames](#create-the-category-and-subcategory-dataframes)
 3. [Create the Campaign DataFrame](#create-the-campaign-dataframe)
