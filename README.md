@@ -14,7 +14,7 @@ The instructions for this mini project are divided into the following subsection
 - Create the Contacts DataFrame
 - Create the Crowdfunding Database
 
-## Create the Category and Subcategory DataFrames
+### Create the Category and Subcategory DataFrames
 1. Extract and transform the `crowdfunding.xlsx` Excel data to create a category DataFrame that has the following columns:
     - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
     - A "category" column that contains only the category titles
@@ -33,7 +33,7 @@ The instructions for this mini project are divided into the following subsection
 
 4. Export the subcategory DataFrame as `subcategory.csv` and save it to your GitHub repository.
 
-## Create the Campaign DataFrame
+### Create the Campaign DataFrame
 1. Extract and transform the `crowdfunding.xlsx` Excel data to create a campaign DataFrame has the following columns:
     - The "cf_id" column
     - The "contact_id" column
@@ -54,7 +54,7 @@ The instructions for this mini project are divided into the following subsection
 
 2. Export the campaign DataFrame as `campaign.csv` and save it to your GitHub repository.
 
-## Create the Contacts DataFrame
+### Create the Contacts DataFrame
 1. Choose one of the following two options for extracting and transforming the data from the `contacts.xlsx` Excel data:
     - **Option 1:** Use Python dictionary methods.
     - **Option 2:** Use regular expressions.
@@ -80,7 +80,7 @@ The instructions for this mini project are divided into the following subsection
 4. Check that your final DataFrame resembles the one in the following image:
 ![contact_Dataframe](imgs/contact_DataFrame_final.png)
 
-## Create the Crowdfunding Database
+### Create the Crowdfunding Database
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using [QuickDBDLinks](http://www.quickdatabasediagrams.com/).
 2. Use the information from the ERD to create a table schema for each CSV file.
     - **Note:** Remember to specify the data types, primary keys, foreign keys, and other constraints.
