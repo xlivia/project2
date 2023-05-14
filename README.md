@@ -1,11 +1,20 @@
 # Project 2
 
 ### Table Of Contents
-1. [Instructions](#instructions)
-2. [Create the Category and Subcategory DataFrames](#create-the-category-and-subcategory-dataframes)
-3. [Create the Campaign DataFrame](#create-the-campaign-dataframe)
-4. [Create the Contacts DataFrame](#create-the-contacts-dataframe)
-5. [Create the Crowdfunding Database](#create-the-crowdfunding-database)
+1. [PSQL](#psql)
+2. [Instructions](#instructions)
+3. [Create the Category and Subcategory DataFrames](#create-the-category-and-subcategory-dataframes)
+4. [Create the Campaign DataFrame](#create-the-campaign-dataframe)
+5. [Create the Contacts DataFrame](#create-the-contacts-dataframe)
+6. [Create the Crowdfunding Database](#create-the-crowdfunding-database)
+
+## PSQL
+1. Connect to postgres: `psql -h ${localhost} -p ${port} -U ${username}`
+2. Run the script to create and connect to the database, and create, add, and show the tables: `\i crowdfunding_db_schema.sql`
+
+- Use `\q` to quit postgres.
+- Use `\dt` to view all the tables in the `crowdfunding_db` database when connected to the `crowdfunding_db` database.
+- Use `\l` to view all the databases in postgres.
 
 ## Instructions
 The instructions for this mini project are divided into the following subsections:
